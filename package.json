@@ -1,0 +1,19 @@
+{
+  "name": "imgur-client-viewer-web",
+  "version": "0.0.1",
+  "description": "A web based interface for each imgur client application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arjun Raju Pillai <revarjunr@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-property-decorator": "^8.5.0"
+  }
+}
