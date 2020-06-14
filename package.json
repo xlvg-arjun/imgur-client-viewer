@@ -4,16 +4,22 @@
   "description": "A web based interface for each imgur client application",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Arjun Raju Pillai <revarjunr@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.2",
     "parcel-bundler": "^1.12.4",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.5",
+    "vue-template-compiler": "^2.6.11"
   },
   "dependencies": {
     "vue": "^2.6.11",
-    "vue-property-decorator": "^8.5.0"
+    "vue-class-component": "^7.2.3",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-property-decorator": "^8.5.0",
+    "vue-router": "^3.3.4"
   }
 }
