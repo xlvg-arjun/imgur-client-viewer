@@ -12,10 +12,12 @@
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.1.2",
     "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.8",
     "typescript": "^3.9.5",
     "vue-template-compiler": "^2.6.11"
   },
   "dependencies": {
+    "reset-css": "^5.0.1",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-hot-reload-api": "^2.3.4",

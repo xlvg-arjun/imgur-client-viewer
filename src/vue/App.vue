@@ -8,6 +8,5 @@
 import { Vue, Component } from "vue-property-decorator"
 @Component
 export default class HelloWorld extends Vue {
-  private msg: string = "Hello World";
 }
 </script>

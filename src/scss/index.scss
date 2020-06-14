@@ -1,0 +1,32 @@
+.main-page {
+  min-height: 100vh;
+  background: rgb(112,112,112);
+  background: linear-gradient(0deg, rgba(112,112,112,1) 0%, rgba(232,231,245,1) 100%);
+}
+
+.main-page > * {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+#main-page-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+#main-page-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 70vh;
+  background-color: lightgrey;
+  margin-top: 1rem;
+  padding: 2rem;
+  background: rgb(112,112,112);
+  background: linear-gradient(180deg, rgba(112,112,112,1) 0%, rgba(210,207,250,1) 100%);
+}
+
+#main-page-gallery > * {
+  flex: 1 1 10%;
+  max-width: 300px;
+}
